@@ -1,0 +1,79 @@
+
+//== Template Main Color
+$maincolor: #FB0937;
+$white: #fff;
+$white2: #CCD3DC;
+$white3: #F5F5F5;
+$white4: #D1D1D1;
+$white6: #CAD1DC;
+$white7: #E0E5E9;
+
+$black0: #0A0E14;
+$black1: #181818;
+$black2: #3F4045;
+$black3: #82838A;
+$black4: #313439;
+
+$gray: #91939D;
+$gray2: #63656D;
+
+
+
+
+$semired: #FF335A;
+$semiyellow: #F7B440;
+$semisky: #4CABFF;
+$lightgreen: #35CE9F;
+
+
+
+//== social media colors
+$facebook: #4285F4;
+$twitter: #55acee;
+$dribbble: #ea4c89;
+$behance: #131418;
+$google-plus: #EE314A;
+$linkedin: #0077B5;
+$instagram: #e4405f;
+
+
+
+
+/*-----------------
+    # Typography
+-----------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700&display=swap');
+
+
+
+@font-face {
+    font-family: 'gilroy-regular';
+    src: url('../fonts/gilroy-regular-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroy-medium';
+    src: url('../fonts/gilroy-medium-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'gilroy-bold';
+    src: url('../fonts/gilroy-bold-webfont.woff2') format('woff2'),
+         url('../fonts/gilroy-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+//  transition
+$transition: all .3s ease-in;
+$transition-long: all .5s ease-in;

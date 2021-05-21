@@ -1,0 +1,83 @@
+.wrapper {
+    position: relative;
+    width: 100%;    
+}
+
+.navigation {
+    position: fixed;
+    width: 260px;
+    height: 100%;
+    background-color: var(--main-color-one);
+    color: $white;
+    transition: 0.5s;
+    overflow: hidden;
+    &.active {
+        width: 60px;
+        ul li {
+            padding: 0 10px;
+            &:first-child{ 
+                padding: 20px 10px;
+            }
+        }
+    }
+    ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        li {
+            position: relative;
+            width: 100%;
+            padding: 0 20px;
+            &:first-child{
+                padding: 20px;
+                font-weight: 500;
+                font-size: 24px;
+            }
+            &:first-child:hover a{
+                background: transparent;
+                box-shadow: none;
+                border-radius: none; 
+            }
+            &:last-child:hover a{
+                background: transparent;
+                box-shadow: none;
+                border-radius: none;
+            }        
+            &:hover a,
+            &.active a {
+                background: $hover;
+                box-shadow: 0px 30px 12px -20px rgba(15, 36, 64, 0.5);
+                border-radius: 10px;               
+            }
+            a {
+                position: relative;
+                display: flex;
+                width: 100%;
+                text-decoration: none;
+                margin: 2px 0;
+                .icon {
+                    position: relative;
+                    display: block;
+                    min-width: 40px;
+                    height: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    svg {
+                        width: 20px;
+                    }                   
+                }
+                .title {
+                    position: relative;
+                    display: block;
+                    height: 40px;
+                    line-height: 40px;
+                    white-space: nowrap;
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+}
+
